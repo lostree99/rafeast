@@ -23,7 +23,7 @@ This package relies on the **FEAST Eigenvalue Solver v4.0**. Due to file size li
 2.  Extract the downloaded folder and rename it to `FEAST`.
 3.  Place the `FEAST` folder into the root of this package directory. The structure must look like this:
     ```text
-    rafeast535/
+    rafeast/
     ├── FEAST/          <-- You put this here
     │   ├── 4.0/
     │       ├── include/
