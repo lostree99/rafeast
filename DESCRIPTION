@@ -1,0 +1,18 @@
+Package: rafeast535
+Type: Package
+Title: RA-FEAST Experiments for STATS 535
+Version: 0.0.1
+Authors@R: person("Ayush", "Lastname", email = "you@umass.edu",
+    role = c("aut", "cre"))
+Description: FEAST and RA-FEAST experiments for symmetric eigenvalue problems.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Matrix,
+    Rcpp,
+    RcppArmadillo
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+SystemRequirements: C++11

@@ -1,0 +1,11 @@
+useDynLib(rafeast535)
+importFrom(Rcpp, evalCpp)
+
+export(feast_band_dense)
+export(rafeast_dense)
+
+export(rafeast_sparse)
+export(feast_sparse)
+
+importFrom(Rcpp, evalCpp)
+useDynLib(rafeast535, .registration = TRUE)
