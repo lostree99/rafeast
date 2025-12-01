@@ -1,18 +1,22 @@
 Package: rafeast535
 Type: Package
-Title: RA-FEAST Experiments for STATS 535
-Version: 0.0.1
-Authors@R: person("Ayush", "Lastname", email = "you@umass.edu",
-    role = c("aut", "cre"))
-Description: FEAST and RA-FEAST experiments for symmetric eigenvalue problems.
+Title: Randomized-Accelerated FEAST Solver
+Version: 0.1.0
+Author: Ayush Nadiger
+Maintainer: Ayush Nadiger <anadiger@umass.edu>
+Description: Implements the Randomized-Accelerated FEAST (RA-FEAST) algorithm for 
+    solving large-scale sparse eigenvalue problems in statistical computing. 
+    The method combines randomized subspace iteration (warmstart) with the 
+    FEAST contour-integral eigensolver (v4.0) to achieve significant speedups 
+    while maintaining high accuracy.
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Imports:
+Imports: 
     Matrix,
-    Rcpp,
-    RcppArmadillo
-LinkingTo:
-    Rcpp,
-    RcppArmadillo
-SystemRequirements: C++11
+    Rcpp (>= 1.0.0),
+    methods
+LinkingTo: 
+    Rcpp
+SystemRequirements: Intel MKL, FEAST v4.0
+RoxygenNote: 7.2.3
