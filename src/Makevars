@@ -1,0 +1,2 @@
+PKG_CPPFLAGS = -I../FEAST/4.0/include
+PKG_LIBS     = -L../FEAST/4.0/lib/x64 -lfeast $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
